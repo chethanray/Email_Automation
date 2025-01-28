@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+   display:flex ;
+   height:80px;
+   background-color: #003366;
+   align-content: center;
+   padding-top: 10px;
+   position: fixed;
+   width: 100%;
+   z-index: 1000;
+  }
+  
+  header p {
+    /* padding-left: 138px; */
+    color: white;
+    font-size: 30px;
+    height: 100%;
+    /* padding-bottom: 20px; */
+    margin-top: 15px;
+    font-weight: bold
+  }
+
+  img {
+    margin-top: 7px;
+    width: 55px;
+    height: 50px;
+    padding-left: 155px;
+}
+
+
+#text {
+  margin-bottom: 20px;
+}
+
+  .formBody {
+   padding-top: 150px;  
+  }
+  
+  nav {
+    color:#343a40 ;
+    overflow: hidden;
+    width: 500px;
+    padding-top: 15px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color:#ffffff ;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+  }
+  
+  .Signuplogin button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Signuplogin button {
+    margin-right: 30px;
+    height: 40px;
+    
+  }
+  
+  .Signuplogin {
+   
+    width: 200px;
+   display: flex;
+   justify-content: end;
+   align-content:center ;
+   margin-left: auto;
+   padding-top: 15px;
+  }
+  
+  
+  
+  .secHead{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+     box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    /* opacity: 0.7; */ 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: bold;
+    font-size: larger;
+  }   
+  
+  input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 15px ;
+  }
+  
+  button:hover {
+    background-color: #0072ec;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  .help-section {
+    width: 85%;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    margin: auto;
+    margin-top: 70px;
+}
+  
+  .help-section ul {
+    text-align: left;
+  }
+  
+  .help-section p {
+    font-size: medium;
+    font-weight: 700;
+  }
+
+  .help-section ul li {
+    font-size: medium;
+  }
+  
+  .copy {
+      background-color: #0056b3;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+  li {
+      margin-top: 20px;
+      font-size: 20px;
+      text-align: left;
+  }
+  
+  
+
+  
+  span {
+      display: inline;
+  }
+  
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure the video is behind other content */
+  }
+  
+  #background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire area */
+  }
