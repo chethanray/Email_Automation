@@ -1,4 +1,4 @@
- The Email Automation project : Automates the process of fetching bulk emails using the IMAP protocol, extracting 
+The Email Automation project : Automates the process of fetching bulk emails using the IMAP protocol, extracting 
 email data such as sender, subject, and timestamp, and storing it in a MongoDB database. Users can log in through a 
 secure system, with credentials saved in the database. The backend, built with Node.js and Express.js, processes the 
 email data and generates it in an Excel file format, available for download. The frontend, developed using HTML, 
